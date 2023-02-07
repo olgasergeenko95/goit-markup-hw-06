@@ -441,16 +441,19 @@ body {
   color: var(--text-footer);
   width: 264px;
 }
-.footer-social-title {
+.footer-title {
+  margin-bottom: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
 }
 
 .footer-logo {
   margin-right: 120px;
+}
+.footer-social-media {
+  margin-right: 80px;
 }
 
 .footer-social-list {
@@ -471,10 +474,15 @@ body {
 .footer-social-list-icon {
   fill: var(--social-media-icons-color);
 }
+
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
   background-color: var(--footer-social-link-active);
 }
+
+.footer-subscribe {
+}
+
 /* --------------Portfolio----------------- */
 
 /* Filters */
